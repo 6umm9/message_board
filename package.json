@@ -1,0 +1,25 @@
+{
+  "name": "message_board",
+  "version": "1.0.0",
+  "description": "This is a message board for the Node JS section in the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6umm9/message_board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/6umm9/message_board/issues"
+  },
+  "homepage": "https://github.com/6umm9/message_board#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  }
+}

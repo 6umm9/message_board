@@ -112,6 +112,10 @@
                 <div class="message-date">
                     <%= message.added.toLocaleString() %>
                 </div>
+                <div style="margin-top: 1rem;">
+                    <a href="/message/<%= message.id %>" class="btn"
+                        style="padding: 0.5rem 1rem; font-size: 0.875rem;">Open</a>
+                </div>
             </div>
             <% }) %>
     </div>
